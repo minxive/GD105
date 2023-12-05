@@ -7,14 +7,14 @@ int ExtraballSize=30; //ball size (radius)
 int BigballSize=40; //ball size (radius)
 int BiggerballSize=50; //ball size (radius)
 int BiggestballSize=60; //ball size (radius)
-int xDirection=15; //speed of motion for first ball
-int yDirection=15; // speed of motion for frst ball
-int x2Direction=15; //speed of motion for second ball
-int y2Direction=15; //speed of motion for second ball
-int x3Direction=15; //speed of motion for third ball
-int y3Direction=15; //speed of motion for third ball
-int x4Direction=15; //speed of motion for fourth ball
-int y4Direction=15; //speed of motion for fourth ball
+int xDirection=30; //speed of motion for first ball
+int yDirection=30; // speed of motion for frst ball
+int x2Direction=30; //speed of motion for second ball
+int y2Direction=30; //speed of motion for second ball
+int x3Direction=30; //speed of motion for third ball
+int y3Direction=30; //speed of motion for third ball
+int x4Direction=30; //speed of motion for fourth ball
+int y4Direction=30; //speed of motion for fourth ball
 int x5Direction=20; //speed of motion for fifth ball
 int y5Direction=20; //speed of motion for fifth ball
 float xPos, yPos; //position of the first ball
@@ -49,7 +49,7 @@ void draw() {
   greenColor=random(255);
   blueColor=random(255);
   //color transition time
-  delay(40);
+  delay(120);
   //change the stroke and fill colour
   fill(redColor, greenColor, blueColor);
 
